@@ -1,25 +1,24 @@
-    *{
+    /* selects all elements that are on the page. This resets all margins and padding on a page. */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
     
-    html
-    body {
+html body {
     height: 100%;
-    }
+}
     
-    h1, h2, h3, h4, h5, h6,
-    p {
+h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 16px;
-    }
+}
     
-    /* everything above is considered reset for the browser */
+/* everything above is considered reset for the browser */
     
-    nav {
+nav {
     height: 80px;
     background-color: brown;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    }
+}
