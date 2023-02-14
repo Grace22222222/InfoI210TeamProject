@@ -17,8 +17,32 @@ h1, h2, h3, h4, h5, h6, p {
     
 nav {
     height: 80px;
-    background-color: brown;
+    background-color: rgb(132,230,110);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+a:link {
+
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    text-decoration: none;
+    color:red;
+
+}
+
+.HeroImage{
+
+    width: 100%;
+    opacity: 100%;
+    background-image: linear-gradient(rgba(298, 163, 200, 0.52),rgba(111, 156, 299, 0.52));
+    
 }
