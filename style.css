@@ -49,8 +49,8 @@ a:hover {
 
 img {
 
-    width:100%;
-    opacity:60%;
+    width: 100%;
+    opacity: 60%;
 
 }
 
@@ -62,4 +62,10 @@ img {
     justify-content: space-evenly;
     height: 80px;
     margin-bottom: 1px;
+}
+
+.callout{
+
+    text-align: center;
+
 }
