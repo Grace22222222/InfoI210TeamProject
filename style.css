@@ -54,9 +54,12 @@ img {
 
 }
 
-.callout{
-
-    text-align:center;
-
-
+.petal {
+    background-color: rgb(221,108,151);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 1px;
 }
