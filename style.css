@@ -50,7 +50,7 @@ a:hover {
 img {
 
     width: 100%;
-    opacity: 60%;
+    opacity: 5%;
 
 }
 
@@ -68,6 +68,8 @@ img {
     text-align: center;
     margin-top: -590px;
     font-size: 40px;
+    color:black;
+    opacity: 100%;
 }
 
 #container {
