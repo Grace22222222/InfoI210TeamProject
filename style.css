@@ -47,11 +47,18 @@ a:hover {
     
 }
 
-img {
+.heroimage {
 
     width: 100%;
     opacity: 5%;
+    z-index: 2;
 
+}
+
+.logo {
+    width: 50px;
+    opacity: 100%;
+    z-index: 1;
 }
 
 .petal {
@@ -83,4 +90,20 @@ img {
 footer {
     margin-top: 470px;
     padding-left: 20px;
+    
+}
+
+.foot {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.email {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.copy-trade {
+    margin-left: 1050px;
+    margin-bottom: auto;
 }
