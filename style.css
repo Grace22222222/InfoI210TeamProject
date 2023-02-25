@@ -59,6 +59,7 @@ a:hover {
     width: 50px;
     opacity: 100%;
     z-index: 1;
+    margin-top: 10px;
 }
 
 .petal {
@@ -99,7 +100,7 @@ footer {
 }
 
 .email {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
