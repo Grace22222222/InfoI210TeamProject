@@ -28,39 +28,45 @@ nav a {
     text-decoration: none;
 }
 
-nav li:hover ul {
-    display: block;
-}
-
 nav li {
     list-style-type: none;
 }
-
+/*
 nav li.hover,
 a:hover {
 }
+*/
 
+/*DropDown Menu Placement*/
 nav li ul {
     display: none;
     height: auto;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: absolute;
 }
 
+/*DropDown Menu Blocking*/
 nav li:hover ul {
     display: block;
 }
 
+/*DropDown Menu Color Blocking*/
 nav li ul li {
     background-color: rgb(221,108,151);
     border-top: 1px solid #c9d4d8;
 }
 
+/*DropDown Menu Visible DropDown*/
 nav li ul li a {  
+    position:static;
 }
 
+/*DropDown Menu Format*/
 nav li ul li a:hover { 
+    padding:12px;
+    position:sticky;
+    height:80px;
 }
 
 a:link {
