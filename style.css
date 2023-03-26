@@ -26,11 +26,14 @@ nav {
 
 nav a {
     text-decoration: none;
-    display: block;
 }
 
 nav li:hover ul {
     display: block;
+}
+
+nav li {
+    list-style-type: none;
 }
 
 nav li.hover,
@@ -42,6 +45,7 @@ nav li ul {
     height: auto;
     margin: 0;
     padding: 0;
+    position: fixed;
 }
 
 nav li:hover ul {
@@ -49,12 +53,14 @@ nav li:hover ul {
 }
 
 nav li ul li {
+    background-color: rgb(221,108,151);
+    border-top: 1px solid #c9d4d8;
 }
 
-nav li ul li a {
+nav li ul li a {  
 }
 
-nav li ul li a:hover {
+nav li ul li a:hover { 
 }
 
 a:link {
