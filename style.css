@@ -32,7 +32,7 @@ nav {
 	position: absolute;
 	/*mid-width: 160px;*/
 	z-index: 1;
-	
+    
 }
 
 .dropdown {
@@ -45,12 +45,16 @@ nav {
 .dropdown:hover .dropdownCon {
 	
 	display: block;
+    width:115px;
+    background-color: rgb(221,108,151);
+    border: 3px black dotted;
 	
 }
 
 .dropdownText:hover {
 
     padding-left: 15px;
+    border: 1px black solid;
 
 }
 
