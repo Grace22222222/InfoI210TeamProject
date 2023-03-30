@@ -14,7 +14,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
     
 /* everything above is considered reset for the browser */
-    
+
+
+
 nav {
     height: 80px;
     background-color: rgb(221,108,151);
@@ -24,49 +26,32 @@ nav {
     text-decoration: none;
 }
 
-nav a {
-    text-decoration: none;
+.dropdownCon {
+	
+	display: none;
+	position: absolute;
+	/*mid-width: 160px;*/
+	z-index: 1;
+	
 }
 
-nav li {
-    list-style-type: none;
-}
-/*
-nav li.hover,
-a:hover {
-}
-*/
-
-/*DropDown Menu Placement*/
-nav li ul {
-    display: none;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    position: absolute;
+.dropdown {
+	
+	position: relative;
+	display: inline-block;
+	
 }
 
-/*DropDown Menu Blocking*/
-nav li:hover ul {
-    display: block;
+.dropdown:hover .dropdownCon {
+	
+	display: block;
+	
 }
 
-/*DropDown Menu Color Blocking*/
-nav li ul li {
-    background-color: rgb(221,108,151);
-    border-top: 1px solid #c9d4d8;
-}
+.dropdownText:hover {
 
-/*DropDown Menu Visible DropDown*/
-nav li ul li a {  
-    position:static;
-}
+    padding-left: 15px;
 
-/*DropDown Menu Format*/
-nav li ul li a:hover { 
-    padding:12px;
-    position:sticky;
-    height:80px;
 }
 
 a:link {
@@ -78,12 +63,20 @@ a:link {
 
 }
 
+a:link, a:visited {
+
+    color:white;
+
+}
+
 a:hover {
 
     text-decoration: none;
     color:red;
 
 }
+
+
 
 .hero{
 
@@ -128,7 +121,7 @@ a:hover {
 
 #container {
     background-image: linear-gradient(rgba(298, 163, 200, 0.52),rgba(111, 156, 299, 0.52)), url(/images/FlowerGarden.jpg);
-    display: flex;
+    display: relative;
     background-repeat: no-repeat;
     background-size: cover;
 }
