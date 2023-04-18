@@ -24,6 +24,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .dropdownCon {
@@ -32,6 +33,7 @@ nav {
 	position: absolute;
 	/*mid-width: 160px;*/
 	z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 
@@ -64,6 +66,7 @@ a:link {
     font-size:20px;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -113,6 +116,7 @@ a:hover {
     justify-content: space-evenly;
     height: 80px;
     margin-bottom: 1px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .callout{
@@ -121,6 +125,7 @@ a:hover {
     font-size: 40px;
     color:black;
     opacity: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #container {
@@ -134,7 +139,7 @@ a:hover {
 footer {
     margin-top: 470px;
     padding-left: 20px;
-    
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .foot {
