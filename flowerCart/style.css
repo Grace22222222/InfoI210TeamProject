@@ -58,7 +58,7 @@
     
     .dropdownText:hover {
     
-        padding-left: 15px;
+        padding-left: 10px;
         border: 1px black solid;
     
     }
@@ -164,4 +164,30 @@
     
     .tiny {
         background-color: rgb(187, 89, 187);
+    }
+
+    .cart {
+
+        background-image: linear-gradient(rgba(298, 163, 200, 0.52),rgba(111, 156, 299, 0.52));
+        padding-bottom: 220px;
+        padding-left: 20px;
+
+    }
+    
+    .heart {
+
+        display: flex;
+        
+    }
+
+    .heart h3 {
+
+        margin-top: 15px;
+
+    }
+
+    #cartItems {
+
+        margin-right: 39px;
+
     }
