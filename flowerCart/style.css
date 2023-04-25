@@ -52,7 +52,7 @@
         display: block;
         width:115px;
         background-color: rgb(221,108,151);
-        border: 3px black dotted;
+        border: 4px black double;
         
     }
     
@@ -82,7 +82,7 @@
     a:hover {
     
         text-decoration: none;
-        color:red;
+        color:purple;
     
     }
     
