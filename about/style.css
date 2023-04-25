@@ -1,0 +1,193 @@
+/* selects all elements that are on the page. This resets all margins and padding on a page. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    
+html body {
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+/* everything above is considered reset for the browser */
+
+
+
+nav {
+    height: 80px;
+    background-color: rgb(221,108,151);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dropdownCon {
+    
+    display: none;
+    position: absolute;
+    /*mid-width: 160px;*/
+    z-index: 1;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.dropdown {
+    
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown:hover .dropdownCon {
+    
+    display: block;
+    width:115px;
+    background-color: rgb(221,108,151);
+    border: 4px black double;
+    
+}
+
+.dropdownText:hover {
+
+    padding-left: 10px;
+    border: 1px black solid;
+
+}
+
+a:link {
+
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:link, a:visited {
+
+    color:white;
+
+}
+
+a:hover {
+
+    text-decoration: none;
+    color:purple;
+
+}
+
+
+
+.hero{
+
+    width: 100%;
+    opacity: 100%;
+    background-image: linear-gradient(rgba(298, 163, 200, 0.52),rgba(111, 156, 299, 0.52));
+    
+}
+
+.heroimage {
+
+    width: 100%;
+    opacity: 5%;
+    z-index: 2;
+
+}
+
+.logo {
+    width: 50px;
+    opacity: 100%;
+    z-index: 1;
+    margin-top: 10px;
+}
+
+.petal {
+    background-color: rgb(221,108,151);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-bottom: 1px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.callout{
+    text-align: center;
+    margin-top: -590px;
+    font-size: 40px;
+    color:black;
+    opacity: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    background-image: linear-gradient(rgba(298, 163, 200, 0.52),rgba(111, 156, 299, 0.52)), url(/images/FlowerGarden.jpg);
+    display: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer {
+    margin-top: 470px;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foot {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.email {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.copy-trade {
+    margin-left: 1050px;
+    margin-bottom: auto;
+}
+
+.tiny {
+    background-color: rgb(187, 89, 187);
+}
+
+.cart {
+
+    background-image: linear-gradient(rgba(298, 163, 200, 0.52),rgba(111, 156, 299, 0.52));
+    padding-bottom: 220px;
+    padding-left: 20px;
+
+}
+
+.heart {
+
+    display: flex;
+    
+}
+
+.heart h3 {
+
+    margin-top: 15px;
+
+}
+
+#cartItems {
+
+    margin-right: 39px;
+
+}
